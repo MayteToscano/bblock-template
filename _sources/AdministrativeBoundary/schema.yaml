@@ -1,0 +1,43 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: 'Schemas for AdministrativeBoundary' 
+type: object
+properties:
+  id:
+    type: string
+    format: "https://inspire.ec.europa.eu/theme/au:1"
+  localid:
+    type: string
+  country:
+    type: string
+  nationallevel:
+    type: string
+    format: "https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel"  
+  legalstatus:
+    type: string
+    format: "https://inspire.ec.europa.eu/enumeration/LegalStatusValue" 
+  technicalStatus:
+    type: string
+    format: "https://inspire.ec.europa.eu/enumeration/LegalStatusValue" 
+  administrativeunit1: 
+    type: string 
+  administrativeunit2: 
+    type: string   
+  beginlifespanversion:
+    type: string
+    format: date-time 
+  namespace:
+    type: string   
+  versionid:
+    type: string                
+required:
+  - id
+  - localid
+  - country
+  - nationallevel
+  - legalstatus
+  - technicalStatus
+  - administrativeunit1
+  - administrativeunit2
+  - beginlifespanversion
+  - namespace 
+  - versionid
