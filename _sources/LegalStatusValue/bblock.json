@@ -1,14 +1,14 @@
 {
   "$schema": "metaschema.yaml",
-  "name": "AdministrativeBoundary",
-  "abstract":  "Defines a specific interoperability profile of the AdministrativeBoundary dataset with the Inspire data model",
+  "name": "LegalStatusValue",
+  "abstract":  "enumeration",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
   "dateOfLastChange": "2024-02-16",
-  "link": "https://github.com/MayteToscano/bblock-template/AdministrativeBoundary",
+  "link": "https://inspire.ec.europa.eu/enumeration/LegalStatusValue",
   "sources": [
     {
       "title": "INSPIRE registry",
@@ -17,5 +17,6 @@
   ],
   "maturity": "development",
   "scope": "unstable",
-  "tags": ["AdministrativeBoundary","AdministrativeUnits", "Inspire", "OGC-API"]
+  "tags": ["AdministrativeBoundary","AdministrativeUnits", "Inspire", "LegalStatusValue"]
 }
+

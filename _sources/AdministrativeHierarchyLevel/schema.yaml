@@ -1,0 +1,9 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: 'Schemas for AdministrativeBoundary' 
+type: object
+properties:
+  id:
+    type: string
+    enum: [1st order, 2nd order,3rd order,4th order,5th order,6th order]
+required:
+  - id

@@ -3,21 +3,17 @@ description: 'Schemas for AdministrativeBoundary'
 type: object
 properties:
   id:
-    type: string
-    format: "https://inspire.ec.europa.eu/theme/au:1"
+    type: string 
   localid:
     type: string
   country:
     type: string
   nationallevel:
-    type: string
-    format: "https://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel"  
+    $ref: ../AdministrativeHierarchyLevel/schema.yaml   
   legalstatus:
-    type: string
-    format: "https://inspire.ec.europa.eu/enumeration/LegalStatusValue" 
+    $ref: ../LegalStatusValue/schema.yaml     
   technicalStatus:
-    type: string
-    format: "https://inspire.ec.europa.eu/enumeration/LegalStatusValue" 
+    $ref: ../TechnicalStatusValue/schema.yaml 
   administrativeunit1: 
     type: string 
   administrativeunit2: 

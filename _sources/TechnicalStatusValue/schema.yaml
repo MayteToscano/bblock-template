@@ -1,0 +1,10 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: 'Schemas for TechnicalStatusValue' 
+type: object
+properties:
+  id:
+    type: string
+    enum: [edgeMatched, notEdgeMatched]
+required:
+  - id
+ 
