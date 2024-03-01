@@ -2,8 +2,6 @@
 description: 'Schemas for AdministrativeBoundary' 
 type: object
 properties:
-  id:
-    type: string 
   localid:
     type: string
   country:
@@ -26,7 +24,6 @@ properties:
   versionid:
     type: string                
 required:
-  - id
   - localid
   - country
   - nationallevel

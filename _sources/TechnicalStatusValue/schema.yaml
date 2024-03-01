@@ -4,7 +4,7 @@ type: object
 properties:
   id:
     type: string
-    enum: [edgeMatched, notEdgeMatched]
+    enum: ["edgeMatched", "notEdgeMatched"]
 required:
   - id
  

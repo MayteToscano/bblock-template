@@ -4,7 +4,7 @@ type: object
 properties:
   id:
     type: string
-    enum: [agreed, notAgreed]
+    enum: ["agreed", "notAgreed"]
 required:
   - id
 
