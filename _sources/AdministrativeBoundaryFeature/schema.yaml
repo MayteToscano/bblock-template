@@ -1,11 +1,11 @@
 "$schema": https://json-schema.org/draft/2020-12/schema
-description: 'Example of a sinmple GeoJSON Feature AdministrativeBoundary with Inspire Model'
+description: 'Example of a simple GeoJSON Feature AdministrativeBoundary with Inspire Model'
 $defs:
   MyFeature:
     allOf:
       - $ref: bblocks://ogc.geo.features.feature
       - properties:
           properties:
-            $ref: ../AdministrativeBoundaryFeature/schema.yaml
+            $ref: ../AdministrativeBoundary/schema.yaml
 anyOf:
   - $ref: "#/$defs/MyFeature"

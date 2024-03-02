@@ -15,8 +15,7 @@
       "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
     }
   ],
-  "maturity": "development",
-  "scope": "unstable",
-  "tags": ["AdministrativeBoundary","AdministrativeUnits", "Inspire", "LegalStatusValue"]
+"maturity": "Experimental",
+"scope": "unstable",
+"tags": ["administrative boundary","administrative units", "inspire", "legal statusValue"]
 }
-

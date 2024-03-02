@@ -5,4 +5,4 @@
   base-uri: http://example.com/features/
   snippets:
     - language: json
-      ref: examples/AdministrativeBoundary.json
+      ref: examples/AdministrativeBoundaryFeature.json

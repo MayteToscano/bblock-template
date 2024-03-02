@@ -2,7 +2,6 @@
 
 This Profile provides a working example of an OGC BuildingBlock related to the Administrative Borders of Catalonia.
 
- 
 The generated documentation is here: [https://maytetoscano.github.io/bblock-template/](https://maytetoscano.github.io/bblock-template/)
 
 [Examples of using this with typical applications of OGC standards](https://github.com/ogcincubator/bblocks-examples)
