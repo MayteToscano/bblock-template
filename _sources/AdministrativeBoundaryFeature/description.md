@@ -7,6 +7,8 @@ Administrative Boundary is defined like a line of demarcation between administra
 - [INSPIRE Administrative Boundary](https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary)
 - [OGC-API IDE CATALONIA AdministrativeBoundary](https://geoserveis.ide.cat/servei/catalunya/inspire/ogc/features/collections/inspire:AU.AdministrativeBoundary/)
 
+![Model](./assets/model.png)
+
 ## Key features of this profile:
 - a schema for the AdministrativeBoundary element with the Inspire data model
 - a JSON-LD context for this result schema
