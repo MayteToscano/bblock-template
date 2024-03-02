@@ -10,7 +10,7 @@ properties:
     $ref: ../AdministrativeHierarchyLevel/schema.yaml   
   legalstatus:
     $ref: ../LegalStatusValue/schema.yaml     
-  technicalStatus:
+  technicalstatus:
     $ref: ../TechnicalStatusValue/schema.yaml 
   administrativeunit1: 
     type: string 
@@ -28,9 +28,11 @@ required:
   - country
   - nationallevel
   - legalstatus
-  - technicalStatus
+  - technicalstatus
   - administrativeunit1
   - administrativeunit2
   - beginlifespanversion
   - namespace 
   - versionid
+
+ 
