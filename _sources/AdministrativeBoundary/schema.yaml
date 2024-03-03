@@ -6,11 +6,11 @@ properties:
     type: string
   country:
     type: string
-  nationallevel:
+  allOf:
     $ref: ../AdministrativeHierarchyLevel/schema.yaml   
-  legalstatus:
-    $ref: ../LegalStatusValue/schema.yaml     
-  technicalstatus:
+  allOf:
+    $ref: ../LegalStatusValue/schema.yaml    
+  allOf: 
     $ref: ../TechnicalStatusValue/schema.yaml 
   administrativeunit1: 
     type: string 

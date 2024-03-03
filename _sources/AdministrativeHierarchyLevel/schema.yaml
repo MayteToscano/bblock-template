@@ -2,8 +2,8 @@
 description: 'Schemas for AdministrativeBoundary' 
 type: object
 properties:
-  id:
+  nationallevel:
     type: string
-    enum: ['1st order', '2nd order','3rd order','4th order','5th order','6th order']
+    enum: ["1st order", "2nd order","3rd order","4th order","5th order","6th order"]
 required:
-  - id
+  - nationallevel

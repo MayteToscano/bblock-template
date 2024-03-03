@@ -2,9 +2,9 @@
 description: 'Schemas for LegalStatusValue' 
 type: object
 properties:
-  id:
+  legalstatus:
     type: string
     enum: ["agreed", "notAgreed"]
 required:
-  - id
+  - legalstatus
 
