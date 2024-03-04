@@ -1,4 +1,6 @@
 {
+  "@context": {
+    "mynamespace": "http://example.org/ns1/"
+  },
   "technicalstatus": "edgeMatched"
 }
-

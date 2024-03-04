@@ -8,15 +8,13 @@
   "register": "ogc-building-block-register",
   "version": "0.1",
   "dateOfLastChange": "2024-02-16",
-  "link": "https://inspire.ec.europa.eu/enumeration/TechnicalStatusValue",
   "sources": [
     {
       "title": "INSPIRE registry",
       "link": "https://inspire.ec.europa.eu/featureconcept/AdministrativeBoundary"
     }
   ],
-  "maturity": "Experimental",
+  "maturity": "development",
   "scope": "unstable",
-  "tags": ["administrative boundary","administrative units", "inspire", "technical statusValue"]
+  "tags": ["administrativeboundary","administrativeunits", "inspire", "technicalstatusValue"]
 }
-
