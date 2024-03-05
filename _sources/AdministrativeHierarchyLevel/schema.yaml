@@ -5,18 +5,19 @@ properties:
   nationallevel:
     description: 'Levels of administration in the national administrative hierarchy. This code list reflects the level in the hierarchical pyramid of the administrative structures, which is based on geometric aggregation of territories and does not necessarily describe the subordination between the related administrative authorities.'  
     type: string
-    oneOf: 
-      constant: "1st order"
-      descripction:  "Highest level in the national administrative hierarchy"
-      constant: "2nd order"
-      descripction: "2nd level in the national administrative hierarchy"
-      constant: "3rd order"
-      descripction: "3rd level in the national administrative hierarchy"
-      constant: "4th order"
-      descripction: "4th level in the national administrative hierarchy"
-      constant: "5th order"
-      descripction: "5th level in the national administrative hierarchy"
-      constant: "6th order"
-      descripction: "6th level in the national administrative hierarchy"
-required:   
+    oneOf:
+        - const: "1st order"
+          descripcion: "1st order"
+        - const: "2nd order"
+          descripcion: "2nd order"  
+        - const: "3rd order"
+          descripcion: "3rd order"           
+        - const: "4th order"
+          descripcion: "4th order" 
+        - const: "5th order"
+          descripcion: "5th order" 
+        - const: "6th order"
+          descripcion: "2nd order"           
+required:
   - nationallevel
+  

@@ -6,10 +6,10 @@ properties:
     description: 'Description of the technical status of administrative boundaries.'
     type: string
     oneOf: 
-      constant: "edgeMatched"
-      descripction:  "The boundaries of neighbouring administrative units have the same set of coordinates."
-      constant: "notEdgeMatched"
-      descripction: "The boundaries of neighbouring administrative units do not have the same set of coordinates."
+      - const: "edgeMatched"
+        descripcion: "edgeMatched"
+      - const: "notEdgeMatched"
+        descripcion: "notEdgeMatched"
 required:
-  - technicalstatus
+  - technicalstatus 
  
