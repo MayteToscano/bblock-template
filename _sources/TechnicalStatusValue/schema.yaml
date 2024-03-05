@@ -5,11 +5,11 @@ properties:
   technicalstatus:
     description: 'Description of the technical status of administrative boundaries.'
     type: string
-    enum: ["edgeMatched", "notEdgeMatched"]
-    description: >
-            Sort order:
-             * `edgeMatched` - The boundaries of neighbouring administrative units have the same set of coordinates
-             * `notEdgeMatched` - The boundaries of neighbouring administrative units do not have the same set of coordinates
+    oneOf: 
+      constant: "edgeMatched"
+      descripction:  "The boundaries of neighbouring administrative units have the same set of coordinates."
+      constant: "notEdgeMatched"
+      descripction: "The boundaries of neighbouring administrative units do not have the same set of coordinates."
 required:
   - technicalstatus
  
