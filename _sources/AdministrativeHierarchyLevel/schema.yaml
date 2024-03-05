@@ -7,17 +7,17 @@ properties:
     type: string
     oneOf:
         - const: "1st order"
-          descripcion: "1st order"
+          descripcion: "Highest level in the national administrative hierarchy"
         - const: "2nd order"
-          descripcion: "2nd order"  
+          descripcion: "2nd level in the national administrative hierarchy"  
         - const: "3rd order"
-          descripcion: "3rd order"           
+          descripcion: "3rd level in the national administrative hierarchy"           
         - const: "4th order"
-          descripcion: "4th order" 
+          descripcion: "4th level in the national administrative hierarchy" 
         - const: "5th order"
-          descripcion: "5th order" 
+          descripcion: "5th level in the national administrative hierarchyr" 
         - const: "6th order"
-          descripcion: "2nd order"           
+          descripcion: "6th level in the national administrative hierarchy"           
 required:
   - nationallevel
   

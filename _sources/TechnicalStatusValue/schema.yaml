@@ -7,9 +7,9 @@ properties:
     type: string
     oneOf: 
       - const: "edgeMatched"
-        descripcion: "edgeMatched"
+        descripcion: "The boundaries of neighbouring administrative units have the same set of coordinates"
       - const: "notEdgeMatched"
-        descripcion: "notEdgeMatched"
+        descripcion: "The boundaries of neighbouring administrative units do not have the same set of coordinates"
 required:
   - technicalstatus 
  
